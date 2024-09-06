@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <>
-      <p>Hola a todos</p>
+      <p className='text-xl font-semibold'>Hola a todos</p>
     </>
   );
 }

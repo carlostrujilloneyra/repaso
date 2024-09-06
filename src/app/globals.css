@@ -4,5 +4,22 @@
 
 @layer base {
   body {
+    @apply bg-black p-8 text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-league_spartan;
+  }
+
+  p,
+  button,
+  span,
+  a,
+  input,
+  label {
+    @apply font-public_sans;
   }
 }
